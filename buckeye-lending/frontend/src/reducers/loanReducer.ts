@@ -46,5 +46,8 @@ export function loanReducer(
 
         case "CLEAR_NOTIFICATIONS":
             return { ...state, notificationCount: 0 };
+
+        default:
+            return state;
     }
 }
