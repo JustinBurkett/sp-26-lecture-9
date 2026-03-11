@@ -13,6 +13,8 @@ public class LendingContext : DbContext
     public DbSet<LoanApplicationDto> LoanApplications { get; set; }
     public DbSet<LoanPayment> LoanPayments { get; set; }
     public DbSet<LoanNote> LoanNotes { get; set; }
+    public DbSet<ReviewQueue> ReviewQueues { get; set; }
+    public DbSet<ReviewItem> ReviewItems { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {

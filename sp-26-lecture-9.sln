@@ -1,0 +1,41 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "event-ticketing", "event-ticketing", "{A7A63AF8-AB6F-F949-C319-A69E931F0BBD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "buckeye-lending", "buckeye-lending", "{7A71DBB6-E0D3-C0BC-D82B-54E65FE0344D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "api", "event-ticketing\api\api.csproj", "{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "backend", "backend", "{83B39DB5-7802-94C8-0DA3-F084BCA93366}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buckeye.Lending.Api", "buckeye-lending\backend\Buckeye.Lending.Api\Buckeye.Lending.Api.csproj", "{2DE46DB2-DF9E-5E65-B075-872399F30296}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DE46DB2-DF9E-5E65-B075-872399F30296}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DE46DB2-DF9E-5E65-B075-872399F30296}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DE46DB2-DF9E-5E65-B075-872399F30296}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DE46DB2-DF9E-5E65-B075-872399F30296}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DDAEBDB0-2A0E-7AD5-A9A9-0FC7551F9857} = {A7A63AF8-AB6F-F949-C319-A69E931F0BBD}
+		{83B39DB5-7802-94C8-0DA3-F084BCA93366} = {7A71DBB6-E0D3-C0BC-D82B-54E65FE0344D}
+		{2DE46DB2-DF9E-5E65-B075-872399F30296} = {83B39DB5-7802-94C8-0DA3-F084BCA93366}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C853871-2AC4-4ECB-98FB-7AD012E08657}
+	EndGlobalSection
+EndGlobal
